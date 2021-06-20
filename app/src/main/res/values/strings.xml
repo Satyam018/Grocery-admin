@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Groceryadmin</string>
+    <string-array name="category">
+        <item>select category</item>
+        <item>Fruits</item>
+        <item>Vegetables</item>
+        <item>Meat</item>
+        <item>Aquatic Foods</item>
+        <item>Dairy Products</item>
+        <item>Cold Drinks</item>
+        <item>Juice</item>
+        <item>Bakery</item>
+        <item>Pickles</item>
+    </string-array>
+</resources>

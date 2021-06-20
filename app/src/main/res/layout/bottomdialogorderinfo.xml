@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Show info"
+        android:id="@+id/back2"
+        android:textColor="@color/green"
+        android:textSize="25dp"
+        android:textStyle="italic"
+        android:textAlignment="center"
+        android:layout_marginTop="4dp"/>
+    <ImageView
+        android:layout_width="105dp"
+        android:layout_height="105dp"
+        android:layout_below="@+id/back2"
+        android:layout_marginTop="2dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/imageofproduct"
+        android:scaleType="fitXY"
+        android:background="@drawable/ic_launcher_background"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageofproduct"
+        android:layout_marginTop="4dp"
+        android:text="Name of the product"
+        android:id="@+id/nameofproduct"
+        android:textColor="@color/black"
+        android:textSize="15dp"
+        android:layout_marginLeft="20dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Total amount: "
+        android:id="@+id/back3"
+
+        android:layout_below="@+id/nameofproduct"
+        android:layout_marginLeft="15dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/yellow"
+        android:text="Rs. 1919"
+        android:id="@+id/priceofproduct"
+        android:layout_below="@+id/nameofproduct"
+        android:layout_toRightOf="@+id/back3"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/back4"
+        android:text="Quantity: "
+        android:layout_below="@+id/nameofproduct"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="65dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/quantityoftheproduct"
+        android:textColor="@color/blue"
+        android:text="5"
+        android:layout_below="@+id/nameofproduct"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="35dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Order info"
+        android:id="@+id/back5"
+        android:textColor="@color/black"
+        android:layout_below="@+id/quantityoftheproduct"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="15dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name of the person: "
+        android:layout_below="@+id/back5"
+        android:layout_marginLeft="20dp"
+        android:id="@+id/back6"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sohan"
+        android:id="@+id/nameoftheperson"
+        android:textColor="@color/black"
+        android:layout_below="@+id/back5"
+      android:layout_toRightOf="@+id/back6"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Address:"
+        android:id="@+id/back7"
+        android:layout_below="@+id/back6"
+        android:layout_marginLeft="15dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/addressoftheproduct"
+        android:text="address"
+        android:textColor="@color/black"
+        android:layout_below="@+id/back7"
+        android:layout_marginLeft="25dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/back8"
+        android:text="Phone no: "
+        android:layout_below="@+id/addressoftheproduct"
+        android:layout_marginLeft="15dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="989"
+        android:id="@+id/phoneonofproduct"
+        android:textColor="@color/black"
+        android:layout_below="@+id/addressoftheproduct"
+        android:layout_toRightOf="@+id/back8"/>
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Back"
+        android:id="@+id/backtomain"
+        android:textColor="@color/white"
+        android:layout_below="@+id/back8"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="4dp"/>
+
+
+</RelativeLayout>

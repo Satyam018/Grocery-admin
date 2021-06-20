@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:layout_margin="4dp"
+        android:background="@drawable/ic_launcher_background"
+        android:scaleType="fitXY"
+        android:id="@+id/orderedimage"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Demo"
+        android:layout_marginLeft="15dp"
+        android:textColor="@color/black"
+        android:id="@+id/orderproductname"
+        android:textStyle="bold"
+        android:layout_toRightOf="@+id/orderedimage"
+        android:layout_marginTop="5dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Quantity: "
+        android:id="@+id/back1"
+        android:textStyle="italic"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="4dp"
+        android:textColor="@color/black"
+        android:layout_toRightOf="@+id/orderedimage"
+        android:layout_below="@+id/orderproductname"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1"
+        android:id="@+id/orderproductquantity"
+        android:textStyle="italic"
+        android:textColor="@color/green"
+        android:layout_toRightOf="@+id/back1"
+        android:layout_marginTop="4dp"
+        android:layout_below="@+id/orderproductname"/>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:src="@color/darkgrey"
+        android:layout_marginHorizontal="35dp"
+        android:layout_below="@+id/orderedimage"/>
+
+</RelativeLayout>
